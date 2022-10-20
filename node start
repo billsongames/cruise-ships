@@ -1,0 +1,2 @@
+const Ship = require('./src/ship')
+const ship1 = new Ship('Hull')
