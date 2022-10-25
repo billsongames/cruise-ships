@@ -6,10 +6,18 @@ describe('constructor', () => {
   });
 });
 
-describe('check port has a name', () => {
+describe('name of port is correct', () => {
   const port = new Port('Dover')
 
-  it('port name should be Dover ', () => {
-    expect(port.name).toEqual('Dover')
+  it('name of port is Dover', () => {
+    expect(port.name).toBe('Dover')
+  });
+});
+
+describe('check port is a port Object', () => {
+  const port = new Port('Dover')
+
+  it('port should be a port object ', () => {
+    expect(port).toBeInstanceOf(Object)
   });
 });
