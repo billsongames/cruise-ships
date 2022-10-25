@@ -1,12 +1,12 @@
-function Ship(startingPort) {
-  this.startingPort = startingPort
+class Ship {
+  constructor(startingPort) {
+    this.startingPort = startingPort
+  }
+
+  setSail() {
+    this.startingPort = '';
+  }
 }
-
-
-
-
-
-
 
 
 
