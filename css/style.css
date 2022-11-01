@@ -1,0 +1,50 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#viewport {
+  width: 640px;
+  height: 256px;
+  position: relative;
+  overflow-x: auto;
+  background-image: url("../images/water0.png");
+}
+
+#ports {
+  margin-top: 96px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#ports > .port {
+  width: 64px;
+  height: 32px;
+  background-image: url("../images/port.png");
+}
+
+#ship {
+  width: 128px;
+  height: 64px;
+  background-image: url("../images/ship.png");
+  position: absolute;
+}
+
+#sailbutton {
+  height: 48px;
+  width: 80%;
+  bottom: 0;
+  left: 10%;
+  position: absolute;
+  background-color: blue;
+  font-family: 'Chelsea Market', cursive;
+  color: white;
+  
+}
