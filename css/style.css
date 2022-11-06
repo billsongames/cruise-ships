@@ -38,13 +38,31 @@ body {
 }
 
 #sailbutton {
-  height: 48px;
+  height: 36px;
   width: 80%;
-  bottom: 0;
+  bottom: 8px;
   left: 10%;
   position: absolute;
   background-color: blue;
   font-family: 'Chelsea Market', cursive;
   color: white;
-  
+  line-height: 32px;
+  text-align: center;
+  border-width: 2px;
+  border-color: white;
+}
+
+#message {
+  height: 36px;
+  width: 80%;
+  left: 10%;
+  top: 8px;
+  background-color: red;
+  position: absolute;
+  font-family: 'Chelsea Market', cursive;
+  color: white;
+  line-height: 32px;
+  text-align: center;
+  border-width: 2px;
+  border-color: white;
 }

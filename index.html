@@ -32,12 +32,14 @@
   <script type="text/javascript">
     const dover = new Port("Dover")
     const calais = new Port("Calais")
-    const itinerary = new Itinerary([dover, calais])
+    const amsterdam = new Port("Amsterdam")
+    const copenhagen = new Port("Copenhagen")
+    const itinerary = new Itinerary([dover, calais, amsterdam, copenhagen])
     const ship =new Ship(itinerary)
     const controller = new Controller(ship)
 
     controller.renderPorts(itinerary.ports)
-    controller.renderShip(ship)
+    controller.renderShip()
   </script>  
 
 </body>

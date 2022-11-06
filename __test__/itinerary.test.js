@@ -3,6 +3,8 @@ const Port = require('../src/port');
 const Itinerary = require('../src/itinerary');
 
 describe('constructor', () => {
+  let ports = jest.fn()
+  
   it('returns an Itinerary object', () => {
     expect(new Itinerary()).toBeInstanceOf(Object);
   });

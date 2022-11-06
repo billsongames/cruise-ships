@@ -7,8 +7,8 @@ describe('Port', () => {
   describe('port', () => {
     let dover
     let calais
-    let itinerary
-    let ship
+    let itinerary = jest.fn()
+    let ship = jest.fn()
 
     beforeEach(() => {
       dover = new Port('Dover')
